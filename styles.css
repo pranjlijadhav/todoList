@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container{
+    background-color:#FF4191;
+    width: 60%;
+    margin: 5% auto;
+    border-radius: 1rem;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 3px 3px rgba(246, 39, 74, 0.945);
+
+}
+
+.heading{
+    color: #FF4191;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    margin-left: 37rem;
+    margin-top: 3rem;
+}
+.form-container, #list-container{
+    margin: 1rem;
+    width: 80%;
+    border-radius: 1rem;
+}
+.form-container{
+    background-color: #FB88B4;
+    height: 4rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#list-container{
+    background-color: #F19ED2;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+input, button{
+    height: 2.2rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+input{
+    width: 25rem;
+    margin: 0 1rem;
+    padding: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+button{
+    width: 6rem;
+    background-color: #FF4191;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.list-item{
+    background-color:white;
+    margin: 0.5rem;
+    width: 6rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    height: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.remove-button{
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
